@@ -19,7 +19,7 @@ venv/
 
 ---
 
-Finish the rest of Step 6. Now for Step 7:
+Finish the rest of Step 6. Now for Step 7, where we will commit our code to Github:
 
 1) Head over to your shell and type in `git add .`
 
@@ -33,10 +33,20 @@ After, you can run `git status` to confirm that everything's ok; it should look 
 
 `git config --global user.name "Your Name"`
 
----
-
 3) Finally, we can commit! Type in the following command to shell:
 
 `git commit -m "YOUR MESSAGE HERE"`
 
 Replace the "YOUR MESSAGE HERE" with whatever message you want; this is the message that is attached to the commit, something like "initial commit" or "fixed bug A."
+
+--- 
+
+Last step! Finally, we can push to Heroku. Run the following command in the shell:
+
+`git push heroku master`
+
+If this doesn't work, try the following command:
+
+`git push heroku main`
+
+And you're done! Your code should now be on Heroku. Head to your Heroku dashboard, select the app you created, and click "Open App". You should now see your website!
