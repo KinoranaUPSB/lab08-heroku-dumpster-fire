@@ -17,3 +17,21 @@ Flask==2.2.0
 venv/
 ```
 
+Finish the rest of Step 6. Now for Step 7:
+
+1) Head over to your shell and type in `git add .`
+
+After, you can run `git status` to confirm that everything's ok; it should look something like this:
+
+![Git status](https://i.imgur.com/7UbsXM7.png)
+
+2) Now, before we commit, we need to tell Github who we are. To do this, run the following commands in shell (replace your email and name with your actual email and name):
+
+`git config --global user.email "you@example.com"`
+`git config --global user.name "Your Name"`
+
+3) Finally, we can commit! Type in the following command to shell:
+
+`git commit -m "YOUR MESSAGE HERE"`
+
+Replace the "YOUR MESSAGE HERE" with whatever message you want; this is the message that is attached to the commit, something like "initial commit" or "fixed bug A."
