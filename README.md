@@ -49,4 +49,4 @@ If this doesn't work, try the following command:
 
 `git push heroku main`
 
-And you're done! Your code should now be on Heroku. Head to your Heroku dashboard, select the app you created, and click "Open App". You should now see your website!
+And you're done! Your code should now be on Heroku. Head to your Heroku dashboard, select the app you created, and click "Open App". If your website doesn't appear, just wait a couple minutes and try again, and it should work.
