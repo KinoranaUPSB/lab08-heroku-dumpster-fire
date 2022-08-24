@@ -1,4 +1,4 @@
-# Spis Lab 8 Heroku dumpster fire
+# SPIS Lab 8 Heroku dumpster fire
 
 So you're on Part 5 of Lab 8 and Heroku is exploding! You've come to the right place. This epic gamer guide was made by Daniel and Aidan.
 
